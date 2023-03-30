@@ -1,5 +1,5 @@
-import { Pool } from 'pg';
+import pg from 'pg';
 
-const pool = new Pool();
+const pool = new pg.Pool();
 
 export default pool;
